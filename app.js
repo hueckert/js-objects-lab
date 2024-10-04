@@ -45,6 +45,7 @@ Exercise 4
 Solve Exercise 4 here:
 */
 
-game.party.push(pokemon[3], pokemon[6], pokemon[18])
+game.party.push(pokemon[24])
+  
 
 console.log(game.party)
