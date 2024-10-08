@@ -107,12 +107,19 @@ More Hints: The existing starter Pokemon will be *replaced* in your party with t
 
 Solve Exercise 7 here:
 */
-
 for (i = 0; i < game.party.length; i++) {
   if (game.party[i].starter === true) {
       game.party.splice(i, 1, pokemon[game.party[i].number])
   }
 }
+//testing
+//console.log(game.party)
 
-//testing below
-console.log (game.party)
+/*
+Exercise 8
+1. Print the name of each Pokémon in your party.
+2. Consider using a loop or an array method to access each Pokémon's name.
+
+Solve Exercise 8 here:
+*/
+
