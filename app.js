@@ -123,3 +123,6 @@ Exercise 8
 Solve Exercise 8 here:
 */
 
+for (i = 0; i < game.party.length; i++) {
+  console.log(game.party[i].name)
+}
